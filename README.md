@@ -1,10 +1,12 @@
 # bulk-list-pdf-metadata
 
+Reads PDF documents' metadata and outputs filename with title if the latter is present.
+
 ## Init
 
 - create folder "files"
 - paste PDF files into it
-- put pdf filenames into the following array in index.html (path ("files") gets added automatically, so you need only the filenames!)
+- put pdf filenames into the array (see below) in index.html (path ("files") gets added automatically, so you need only the filenames!)
 - open index.html (via http) in browser
 
 ```javascript
